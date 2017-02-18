@@ -1,0 +1,85 @@
+h1{
+  padding-top: 40px;
+  padding-right: 60px;
+  font-family: 'Cantata One', serif;
+  text-align: right;
+  color: white;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2{
+  font-family: 'Cantata One', serif;
+  text-align: center;
+  color: black;
+
+}
+h5{
+  padding-right: 40px;
+  color: white;
+  text-align: right;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+img{
+  width: 100%;
+}
+.projects{
+  width: 100%;
+}
+.slider {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.slider .slides li img{
+  background-position: initial;
+}
+nav ul a{
+  color: black;
+}
+
+nav a{
+  color: black;
+}
+.section{
+  padding-top: 40px;
+  padding-bottom: 35px;
+  min-height: 600px;
+}
+
+.white{
+  background-color: white;
+}
+
+.parallax-bg {
+  height: 100%;
+  padding: 7%;
+  background-image: url(images/blue-background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.icon{
+  width: 60px;
+  height: 60px;
+}
+.nav-wrapper{
+  opacity: 2;
+}
+.line-1{
+    position: relative;
+    top: 4%;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+#icons{
+  padding-top: 5%;
+  padding-right: 80px;
+}
