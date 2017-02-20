@@ -31,7 +31,6 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#resume">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <nav class="white">
@@ -40,7 +39,6 @@
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#projects">Projects</a></li>
-              <li><a href="#resume">Resume</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
             <a href="#!" data-activates="dropdown1" class="dropdown-button"><i class="material-icons hide-on-large-only">menu</i></a>
@@ -67,54 +65,139 @@
   </div> <!-- parallax -->
 
   <!-- ABOUT -->
-    <div id="about"class="container section ">
-      <div class="white">
+    <div id="about"class=" section ">
+      <div class="row">
         <h2>ABOUT</h2>
-        <p>An easy-going full stack web developer with a strong interest in backend development, who loves to solve challenging problems.</p>
+        <div class="col m2">
+
+        </div>
+        <div class="col m2">
+          <img id="profile-pic" src="images/greice_profile_pic.jpg" alt="">
+        </div>
+        <div class="col m5">
+          <p class="about"> I am an easy-going Full-Stack Web Developer based in San Francisco, CA.
+            I love to solve challenging problems and found my passion in backend development.
+            Before becoming a developer, my work experience involved customer-facing and business management roles.</p>
+            <p class="about">When I am not coding, I like to spend time with my family and practicing yoga. I also enjoy handicrafts like crochet </p>
+
+            <a class="btn center-align" href="gns_resume.pdf" target="_blank">Check Out My Resume</a>
+        </div>
+
+
       </div>
     </div>
   <!-- PROJECTS -->
   <div id="projects" class="section">
-    <h2>PROJECTS</h2>
-    <!-- SLIDER -->
-    <div class="slider responsive-img">
-      <ul class="slides responsive-img">
-        <li>
-          <img class="responsive-img projects" src="images/sf-travelogue.png">
-          <div class="caption left-align">
-            <h5 class="light grey-text text-lighten-3"></h5>
-          </div>
-        </li>
-        <li>
-          <img class="responsive-img projects" src="images/trailblazer.png">
-          <div class="caption left-align">
-            <h3></h3>
-            <h5 class="light grey-text text-lighten-3"></h5>
-          </div>
-        </li>
-        <li>
-          <img class="responsive-img projects" src="images/ga-hackathon.png">
-          <div class="caption right-align">
-            <a href="https://ga-hackathon.herokuapp.com/"><h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5></a>
-          </div>
-        </li>
-        <!-- <li>
-          <img class="responsive-img projects" src="images/github-logo.png">
-          <div class="caption left-align">
-            <h3></h3>
-            <h5 class="light grey-text text-lighten-3"></h5>
-          </div>
-        </li> -->
-      </ul>
-    </div> <!-- slider -->
-  </div> <!-- projects -->
-  <!-- RESUME  -->
-  <div id="resume" class="section">
-    <h2>RESUME</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <a class="btn" href="gns_resume.pdf" target="_blank">Download My Resume</a>
+    <h2>PORTIFOLIO</h2>
+    <div class="row">
+      <div class="col m1">
 
-  </div>
+      </div>
+      <!-- SF-TRAVELOGUE CARD  -->
+      <div class="col m5">
+        <div class="card projects">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/sf-travelogue.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">SF-TRAVELOGUE<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://github.com/aapiane09/sf-travelogue">Github</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">SF-TRAVELOGUE<i class="material-icons right">close</i></span>
+            <p>Created fullstack MEAN application with another developer with fully CRUDable resources.</p>
+              <div class="chip">JavaScript</div>
+              <div class="chip">jQuery</div>
+              <div class="chip">MongoDB</div>
+              <div class="chip">Express</div>
+              <div class="chip">Materialize</div>
+
+          </div>
+        </div>
+      </div>
+      <!-- GA-HACKTHON CARD  -->
+      <div class="col m5">
+        <div class="card projects">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/ga-hackathon.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">GA-HACKATHON<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://github.com/aapiane09/GA-Hackathon">Github</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">GA-HACKATHON<i class="material-icons right">close</i></span>
+            <p>Created fullstack Ruby on Rails application with team of four developers with fully CRUDable resources.
+              <div class="chip">JavaScript</div>
+              <div class="chip">jQuery</div>
+              <div class="chip">Ruby</div>
+              <div class="chip">Rails</div>
+              <div class="chip">Postgresql</div>
+              <div class="chip">Materialize</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col m1 s1">
+
+      </div>
+    </div> <!-- projects first row -->
+    <div class="row">
+      <div class="col m1"></div>
+      <!-- TRAILBLAZER CARD  -->
+      <div class="col m5">
+        <div class="card projects">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/trailblazer.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">TRAILBLAZER<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://github.com/nzoLogic/vagabond">Github</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">TRAILBLAZER<i class="material-icons right">close</i></span>
+            <p>Created fullstack Ruby on Rails application with a team of four developers with fully CRUDable resources.
+              Technologies: JavaScript, jQuery, Postgresql, Materialize</p>
+              <div class="chip">JavaScript</div>
+              <div class="chip">jQuery</div>
+              <div class="chip">Ruby</div>
+              <div class="chip">Rails</div>
+              <div class="chip">Postgresql</div>
+              <div class="chip">Materialize</div>
+
+          </div>
+        </div>
+      </div>
+      <!-- FINAL PROJECT PLACE HOLDER  -->
+      <div class="col m5">
+        <div class="card projects">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/placeholder.jpeg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">COMING SOON<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://github.com/greicens">Github</a></p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Final Project<i class="material-icons right">close</i></span>
+            <p>Created fullstack Ruby on Rails application with team of four developers with fully CRUDable resources.
+              <div class="chip">JavaScript</div>
+              <div class="chip">jQuery</div>
+              <div class="chip">Ruby</div>
+              <div class="chip">Rails</div>
+              <div class="chip">Postgresql</div>
+              <div class="chip">Materialize</div>
+</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col m1 s1">
+
+      </div>
+    </div> <!-- projects second row -->
+
+
   <!-- CONTACT -->
   <div id="contact" class="section teal">
     <h2 class="subtitle">GET IN TOUCH </h2>
