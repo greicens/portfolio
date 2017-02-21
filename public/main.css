@@ -101,6 +101,11 @@ img icon:hover{
   padding-right: 80px;
 }
 
+.social:hover {
+  font-size:4em;
+  transition: .5s ease-out;
+  color:white;
+}
 #email{
   font-size: 30px;
   color: white;
