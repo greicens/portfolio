@@ -20,7 +20,7 @@
       <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />  </head>
   <body>
     <!-- PARALLAX -->
-    <div class="parallax-container">
+    <div id="home" class="parallax-container">
       <div class="parallax">
         <img src="images/bg.jpg">
       </div>
@@ -46,7 +46,7 @@
       </nav>
     </div>
     <!-- INDEX -->
-    <div id="home">
+    <div >
       <h1>Greice Silva</h1>
       <br>
       <h5><%= Full Stack Web Developer | Back end focused %></h5>
@@ -78,9 +78,10 @@
           <p class="about"> I am an easy-going Full-Stack Web Developer based in San Francisco, CA.
             I love to solve challenging problems and found my passion in backend development.
             Before becoming a developer, my work experience involved customer-facing and business management roles.</p>
-            <p class="about">When I am not coding, I like to spend time with my family and practicing yoga. I also enjoy handicrafts like crochet </p>
-
-            <a class="btn center-align" href="gns_resume.pdf" target="_blank">Check Out My Resume</a>
+          <p class="about"> When I am not coding, I like to spend time with my family and practicing yoga. I also enjoy handicrafts like crochet. </p>
+          <div class="row center-align">
+            <a class="btn" href="GreiceSilvaResume.pdf" target="_blank">Check Out My Resume</a>
+          </div>
         </div>
 
 
@@ -101,11 +102,12 @@
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">SF-TRAVELOGUE<i class="material-icons right">more_vert</i></span>
-            <p><a href="https://github.com/aapiane09/sf-travelogue">Github</a></p>
+            <p><a href="https://github.com/aapiane09/sf-travelogue">Github</a> | <a href="https://sf-travelogue.herokuapp.com/"> Launch Project</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">SF-TRAVELOGUE<i class="material-icons right">close</i></span>
-            <p>Created fullstack MEAN application with another developer with fully CRUDable resources.</p>
+            <p>App build for users to view or add interesting places to San Francisco Neighborhoods. Built over the course of 5-days with another developer. I built the server, designed the database structure, created CRUD actions for models and implemented handlebars.</p>
+            <p>Technologies Included:</p>
               <div class="chip">JavaScript</div>
               <div class="chip">jQuery</div>
               <div class="chip">MongoDB</div>
@@ -123,11 +125,12 @@
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">GA-HACKATHON<i class="material-icons right">more_vert</i></span>
-            <p><a href="https://github.com/aapiane09/GA-Hackathon">Github</a></p>
+            <p><a href="https://github.com/aapiane09/GA-Hackathon">Github</a> | <a href="https://ga-hackathon.herokuapp.com/">Launch Project</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">GA-HACKATHON<i class="material-icons right">close</i></span>
-            <p>Created fullstack Ruby on Rails application with team of four developers with fully CRUDable resources.
+            <p>Application to organize General Assembly Hackathons as a tool to help students learn new skills and push each other to grow. Worked in four person team. Collaborated by adding front-end validations, designing the following pages: profile, idea, login and signup.</p>
+            <p>Technologies Included:</p>
               <div class="chip">JavaScript</div>
               <div class="chip">jQuery</div>
               <div class="chip">Ruby</div>
@@ -152,12 +155,12 @@
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">TRAILBLAZER<i class="material-icons right">more_vert</i></span>
-            <p><a href="https://github.com/nzoLogic/vagabond">Github</a></p>
+            <p><a href="https://github.com/nzoLogic/vagabond">Github</a> | <a href="https://stark-cliffs-39113.herokuapp.com/"> Launch Project</a></p>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">TRAILBLAZER<i class="material-icons right">close</i></span>
-            <p>Created fullstack Ruby on Rails application with a team of four developers with fully CRUDable resources.
-              Technologies: JavaScript, jQuery, Postgresql, Materialize</p>
+            <p>Application to share posts from unique travel experiences around the world in which users gain points for completing milestones. Worked in four person team.  Collaborated by designing database structure, CRUD actions,  and debugging.  Created seed data and Implemented picture upload using CarrierWave Gem.</p>
+            <p>Technologies Included:</p>
               <div class="chip">JavaScript</div>
               <div class="chip">jQuery</div>
               <div class="chip">Ruby</div>
@@ -168,29 +171,32 @@
           </div>
         </div>
       </div>
-      <!-- FINAL PROJECT PLACE HOLDER  -->
+      <!-- XTRACKER CARD  -->
       <div class="col m5">
         <div class="card projects">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="images/placeholder.jpeg">
+            <img class="activator" src="images/xtracker.png">
           </div>
           <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">COMING SOON<i class="material-icons right">more_vert</i></span>
-            <p><a href="https://github.com/greicens">Github</a></p>
+            <span class="card-title activator grey-text text-darken-4">XTRACKER<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://github.com/greicens/xTracker">Github</a> | <a href="https://x-tracker.herokuapp.com/"> Launch Project</a></p>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Final Project<i class="material-icons right">close</i></span>
-            <p>Created fullstack Ruby on Rails application with team of four developers with fully CRUDable resources.
+            <span class="card-title grey-text text-darken-4">XTRACKER<i class="material-icons right">close</i></span>
+            <p>An expenses tracking fullstack Ruby on Rails application where users can upload receipts, filter transactions and generate pdf reports.
+              Designed and implemented all features including omniauth authorization for facebook login and pdf generation using wicked_pdf gem .</p>
+              <p>Technologies Included:</p>
               <div class="chip">JavaScript</div>
               <div class="chip">jQuery</div>
               <div class="chip">Ruby</div>
               <div class="chip">Rails</div>
               <div class="chip">Postgresql</div>
               <div class="chip">Materialize</div>
-</p>
+
           </div>
         </div>
       </div>
+
 
       <div class="col m1 s1">
 
@@ -203,8 +209,8 @@
     <h2 class="subtitle">GET IN TOUCH </h2>
     <div class="row center">
         <p id="thanks" class="mustard">Thanks for checking out my work.<br> I’d love to learn about what you’re doing!</p>
-        <p><i class="material-icons letter">email</i></p>
-        <p id="email">gsilva@mail.ccsf.edu</p>
+        <p><a href="mailto:greice@greicesilva.tech"><i class="material-icons letter">email</i></a></p>
+        <a id = "email" href="mailto:greice@greicesilva.tech">greice@greicesilva.tech</a>
     </div>
     <div class="row center">
       <div class="col s4"></div>
