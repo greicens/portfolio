@@ -12,5 +12,6 @@
     "express": "^4.14.1"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "",
+  "stack": "heroku-18"
 }
